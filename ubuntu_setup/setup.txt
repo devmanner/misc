@@ -1,0 +1,24 @@
+# Desktop stuff
+sudo apt install gnome-tweaks chromium-browser conky-all lm-sensors
+
+# Admin stuff
+sudo apt install apt-file htop
+
+# Dev stuff
+sudo apt install vim erlang chrome-gnome-shell git vim-syntax-docker
+
+# Security stuff
+sudo apt install nmap tor aircrack-ng forensics-extra geoip-bin testssl.sh
+
+# Extra openssl
+sudo su -
+cd /opt && \
+mkdir openssl && \
+cd openssl && \
+wget  https://www.openssl.org/source/openssl-1.0.2q.tar.gz && \
+tar xvfz openssl-1.0.2q.tar.gz && \
+cd openssl-1.0.2q && \
+./config --prefix=/opt/openssl shared enable-weak-ssl-ciphers && \
+make && \
+make install
+
