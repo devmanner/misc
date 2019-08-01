@@ -1,14 +1,17 @@
 # Desktop stuff
-sudo apt install gnome-tweaks chromium-browser conky-all lm-sensors
+sudo apt install gnome-tweaks chrome-gnome-shell chromium-browser conky-all lm-sensors trash-cli
 
 # Admin stuff
 sudo apt install apt-file htop
 
 # Dev stuff
-sudo apt install vim erlang chrome-gnome-shell git vim-syntax-docker make
+sudo apt install vim erlang git vim-syntax-docker make docker.io
 
 # Security stuff
-sudo apt install nmap tor aircrack-ng forensics-extra geoip-bin testssl.sh
+sudo apt install nmap tor aircrack-ng forensics-extra geoip-bin testssl.sh wireshark
+
+# Multimedia
+sudo apt install vlc mplayer
 
 # Extra openssl
 sudo su -
