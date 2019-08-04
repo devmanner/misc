@@ -5,7 +5,7 @@ sudo apt install gnome-tweaks chrome-gnome-shell chromium-browser conky-all lm-s
 sudo apt install apt-file htop
 
 # Dev stuff
-sudo apt install vim erlang git vim-syntax-docker make docker.io
+sudo apt install vim erlang git vim-syntax-docker make docker.io curl
 
 # Security stuff
 sudo apt install nmap tor aircrack-ng forensics-extra geoip-bin testssl.sh wireshark
