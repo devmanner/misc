@@ -1,5 +1,5 @@
 # Desktop stuff
-sudo apt install --yes gnome-tweaks chromium-browser conky-all lm-sensors trash-cli
+sudo apt install --yes gnome-tweaks chrome-gnome-shell chromium-browser conky-all lm-sensors trash-cli
 
 # Admin stuff
 sudo apt install --yes apt-file htop
@@ -8,7 +8,10 @@ sudo apt install --yes apt-file htop
 sudo apt install --yes vim erlang chrome-gnome-shell git vim-syntax-docker make gcc curl wget
 
 # Security stuff
-sudo apt install --yes nmap tor aircrack-ng forensics-extra geoip-bin testssl.sh
+sudo apt install --yes nmap tor aircrack-ng forensics-extra geoip-bin testssl.sh wireshark
+
+# Multimedia
+sudo apt install vlc mplayer
 
 # Extra openssl with support for weak ciphers (used with testssl.sh)
 sudo bash -c "cd /opt && mkdir openssl && cd openssl && wget  https://www.openssl.org/source/openssl-1.0.2q.tar.gz && tar xvfz openssl-1.0.2q.tar.gz && cd openssl-1.0.2q && apt install liblist-compare-perl --yes && ./config --prefix=/opt/openssl shared enable-weak-ssl-ciphers && make && make install"
