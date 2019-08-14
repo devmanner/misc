@@ -33,6 +33,6 @@ jdata = json.loads(response.getvalue())
 response.close()
 
 for service in jdata['results']:
-	print " " + service['attrs']['display_name'] + " @ " + service['attrs']['command_endpoint']
+	print " " + service['attrs']['display_name'] + " @ " + service['attrs']['host_name']
 	
 
