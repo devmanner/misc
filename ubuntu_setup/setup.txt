@@ -7,12 +7,24 @@ sudo apt install --yes apt-file htop
 # Dev stuff
 sudo apt install --yes vim erlang chrome-gnome-shell git vim-syntax-docker make gcc curl wget
 
-# Security stuff
-sudo apt install --yes nmap tor aircrack-ng forensics-extra geoip-bin testssl.sh wireshark
-
 # Multimedia
 sudo apt install vlc mplayer
 
+# Security stuff
+sudo apt install --yes nmap tor aircrack-ng forensics-extra geoip-bin testssl.sh wireshark
+
+# h8mail
+sudo apt install --yes python3-pip
+sudo pip3 install h8mail
+
 # Extra openssl with support for weak ciphers (used with testssl.sh)
 sudo bash -c "cd /opt && mkdir openssl && cd openssl && wget  https://www.openssl.org/source/openssl-1.0.2q.tar.gz && tar xvfz openssl-1.0.2q.tar.gz && cd openssl-1.0.2q && apt install liblist-compare-perl --yes && ./config --prefix=/opt/openssl shared enable-weak-ssl-ciphers && make && make install"
+
+# SDR stuff
+sudo apt install --yes librtlsdr-dev rtl-sdr
+mkdir -f ~/repos && cd ~/repos && git clone https://github.com/merbanan/rtl_433.git && cd rtl_433 && ./do_build.sh
+
+git clone  https://github.com/martinmarinov/TempestSDR.git
+
+
 
