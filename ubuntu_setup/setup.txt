@@ -12,6 +12,8 @@ sudo apt install vlc mplayer
 
 # Security stuff
 sudo apt install --yes nmap tor aircrack-ng forensics-extra geoip-bin testssl.sh wireshark
+sudo apt install --yes python-pip
+sudo pip install shodan
 
 # h8mail
 sudo apt install --yes python3-pip
