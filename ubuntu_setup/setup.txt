@@ -1,5 +1,8 @@
 # Desktop stuff
-sudo apt install --yes gnome-tweaks chrome-gnome-shell chromium-browser conky-all lm-sensors trash-cli
+sudo apt install --yes gnome-tweaks dconf-editor chrome-gnome-shell chromium-browser conky-all lm-sensors trash-cli
+
+# Alt + click move window
+dconf write /org/gnome/desktop/wm/preferences/mouse-button-modifier  '"<Alt>"'
 
 # Admin stuff
 sudo apt install --yes apt-file htop
