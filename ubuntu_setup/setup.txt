@@ -19,7 +19,7 @@ sudo apt-get update
 sudo apt-get install gnome-subtitles
 
 # Security stuff
-sudo apt install --yes nmap tor aircrack-ng forensics-extra geoip-bin testssl.sh wireshark
+sudo apt install --yes nmap tor aircrack-ng forensics-extra geoip-bin testssl.sh wireshark fping
 sudo apt install --yes python-pip
 sudo pip install shodan
 
