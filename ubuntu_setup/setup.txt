@@ -25,7 +25,7 @@ sudo pip install shodan
 
 # ESEDB windows password hash extractor
 sudo apt-get install --yes git autoconf automake autopoint libtool pkg-config build-essential 
-cd $HOME/repos/ && git clone https://github.com/libyal/libesedb.git && cd -
+cd $HOME/repos/ && git clone https://github.com/libyal/libesedb.git && cd libesedb && ./synclibs.sh && ./autogen.sh && ./configure && make && cd -
 
 # h8mail
 sudo apt install --yes python3-pip
