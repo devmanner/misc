@@ -1,5 +1,5 @@
 # Desktop stuff
-sudo apt install --yes gnome-tweaks dconf-editor chrome-gnome-shell chromium-browser conky-all lm-sensors trash-cli
+sudo apt install --yes gnome-tweaks dconf-editor chrome-gnome-shell chromium-browser conky-all lm-sensors trash-cli rename
 
 # Alt + click move window
 dconf write /org/gnome/desktop/wm/preferences/mouse-button-modifier  '"<Alt>"'
@@ -8,7 +8,7 @@ dconf write /org/gnome/desktop/wm/preferences/mouse-button-modifier  '"<Alt>"'
 sudo apt install --yes apt-file htop
 
 # Dev stuff
-sudo apt install --yes vim erlang chrome-gnome-shell git vim-syntax-docker make gcc curl wget
+sudo apt install --yes vim erlang chrome-gnome-shell git vim-syntax-docker make gcc curl wget pgpdump
 
 # Multimedia
 sudo apt install vlc mplayer
