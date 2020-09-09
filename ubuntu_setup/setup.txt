@@ -23,6 +23,11 @@ sudo apt install --yes nmap tor aircrack-ng forensics-extra geoip-bin testssl.sh
 sudo apt install --yes python-pip
 sudo pip install shodan
 
+# john the ripper jumbo
+sudo apt install lib-ssl --yes
+cd /opt && sudo git clone https://github.com/openwall/john.git && cd /opt/john/src && sudo ./configure --prefix=/opt/john && sudo make && sudo make install
+
+
 # ESEDB windows password hash extractor
 sudo apt-get install --yes git autoconf automake autopoint libtool pkg-config build-essential 
 cd $HOME/repos/ && git clone https://github.com/libyal/libesedb.git && cd libesedb && ./synclibs.sh && ./autogen.sh && ./configure && make && cd -
