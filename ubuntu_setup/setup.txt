@@ -24,7 +24,7 @@ sudo apt install --yes python-pip
 sudo pip install shodan
 
 # john the ripper jumbo
-sudo apt install lib-ssl --yes
+sudo apt install libssl-dev --yes
 cd /opt && sudo git clone https://github.com/openwall/john.git && cd /opt/john/src && sudo ./configure --prefix=/opt/john && sudo make && sudo make install
 
 
