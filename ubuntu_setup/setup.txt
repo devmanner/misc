@@ -8,7 +8,7 @@ dconf write /org/gnome/desktop/wm/preferences/mouse-button-modifier  '"<Alt>"'
 sudo apt install --yes apt-file htop
 
 # Dev stuff
-sudo apt install --yes vim erlang chrome-gnome-shell git vim-syntax-docker make gcc curl wget pgpdump tilix jq
+sudo apt install --yes vim erlang chrome-gnome-shell git vim-syntax-docker make gcc curl wget pgpdump tilix jq docker-compose
 
 # gcloud
 echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
