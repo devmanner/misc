@@ -11,6 +11,9 @@ brew install --cask docker visual-studio-code
 brew install dependency-check
 # Testing this out: https://github.com/Yelp/detect-secrets
 brew install detect-secrets
+brew install testssl nmap
+brew install --cask wireshark
+
 
 # GeoIP
 brew install geoipupdate geoip libmaxminddb
