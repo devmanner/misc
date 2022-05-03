@@ -1,0 +1,20 @@
+# install some basic tools
+brew install whois htop bash
+
+# Dev stuff
+brew install code erlang git jq
+brew install --cask docker visual-studio-code
+
+
+# Security stuff
+# OWASP dependency check
+brew install dependency-check
+# Testing this out: https://github.com/Yelp/detect-secrets
+brew install detect-secrets
+
+# GeoIP
+brew install geoipupdate geoip libmaxminddb
+
+# Terminal (set Profiles => Open Profiles => Default => Edit Profiles => Keys => Key mappings => Presets (Natural Text Editing)
+brew install --cask iterm2 
+
