@@ -5,6 +5,8 @@ brew install whois htop bash
 brew install code erlang git jq
 brew install --cask docker visual-studio-code
 
+# Python
+brew install virtualenv
 
 # Security stuff
 # OWASP dependency check
@@ -13,7 +15,6 @@ brew install dependency-check
 brew install detect-secrets
 brew install testssl nmap
 brew install --cask wireshark
-
 
 # GeoIP
 brew install geoipupdate geoip libmaxminddb
