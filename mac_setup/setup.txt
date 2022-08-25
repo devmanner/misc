@@ -2,7 +2,7 @@
 brew install whois htop bash
 
 # Dev stuff
-brew install code erlang git jq
+brew install code erlang git jq gcc
 brew install --cask docker visual-studio-code
 
 # Python
