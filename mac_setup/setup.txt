@@ -1,9 +1,12 @@
 # install some basic tools
-brew install whois htop bash
+brew install whois htop bash 
 
 # Dev stuff
 brew install code erlang git jq gcc
 brew install --cask docker visual-studio-code
+
+# Get rid of Apple Music
+brew install --cask notunes
 
 # Python
 brew install virtualenv
