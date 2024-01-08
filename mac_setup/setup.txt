@@ -4,6 +4,7 @@ brew install whois htop bash
 # Dev stuff
 brew install code erlang git jq gcc
 brew install --cask docker visual-studio-code
+brew install jq
 
 # Get rid of Apple Music
 brew install --cask notunes
@@ -18,6 +19,7 @@ brew install dependency-check
 brew install detect-secrets
 brew install testssl nmap
 brew install --cask wireshark
+brew install gitleaks
 
 # GeoIP
 brew install geoipupdate geoip libmaxminddb
