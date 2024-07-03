@@ -1,0 +1,3 @@
+Ubuntu server as base and then:
+
+curl -sO https://get.glennr.nl/unifi/install/unifi-6.5.55.sh && bash unifi-6.5.55.sh
