@@ -1,3 +1,8 @@
+# Install brew
+
+# Add /opt/homebrew/bin/bash to /etc/shells
+chsh -s /opt/homebrew/bin/bash
+
 # install some basic tools
 brew install whois htop bash 
 
